@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <!-- font-awesome cdnj link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- // external css file -->
+    <link rel="stylesheet" href="Spotify_clone.css">
+    <!-- spotify logo -->
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <div class="main">
+        <input id="check-lib" type="checkbox">
+        <div class="side-bar">
+            <nav class="navbar">
+                <ul>
+                    <li>
+                        <i id="home-icon" class="fa-solid fa-house" ></i>
+                      <a>Home</a>
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <a>Search</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="library">
+                <div class="library-head">
+                   
+                    <ul>
+                        <li id="li01">
+                        <label for="check-lib">
+
+                          <img  src="library_icon.png">
+                        </label></li>
+                        <li id="li02"><a href="#">Your Library</a></li>
+                        <li id="li03"><i class="fa-light fa-plus"></i></li>
+                        <li id="li04"><img src="arrow_forward_24dp_FILL0_wght400_GRAD0_opsz24.png"></li>
+                       
+                    </ul>
+                </div>
+                <div class="playlist">
+                    <p>Create your first playlist</p>
+                    <p>It's easy,we'll help you</p>
+                    <button>Create playlist</button>
+                </div>
+                <div class="podcast">
+                    <p>Let's find some podcast to follow</p>
+                    <p>We'll keep you updates on new episodes</p>
+                    <button>Brows podcast</button>
+                </div>
+            </div>
+          
+        </div>
+        <div class="main-content">
+            <div class="main_navbar">
+                <div class="main_navbar_left">
+                    <div class="for-backward-arrow">
+                       
+                        <img src="backward_icon.png" >
+                        <img src="logo.png">
+                        <img src="forward_icon.png">
+                      
+                    </div>
+                    <div class="content-button">
+                        <ul>
+                            <li>All</li>
+                            <li>Music</li>
+                            <li>Podcast</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="main_navbar_right">
+                    <ul>
+                        <li>Explore Premium</li>
+                        <li><i class="fa-sharp fa-regular fa-circle-down"></i><a>Install App</a></li>
+                        <li><i class="fa-regular fa-bell"></i></li>
+                        <li><span>P</span></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="album-section">
+                <!-- //section-1 -->
+                <div class="album-section1">
+                    <div class="sec-head"><p class="heading">Recently played</p><a href="#">Show all</a></div>
+                <!-- card-box -->
+                <div class="card-box" >
+                    <!-- <div class="inner-card-box inner-card-box1">
+                        <img src="card1img.jpeg">
+                        <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                       
+                    <p>Top 50 - Global</p>
+                    <p>Your daily update of the most played</p>
+               </div> -->
+               <div class="inner-card-box inner-card-box2">
+                <img src="justinbieberCard.jpg">
+                <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+               
+            <p>Top 50 - Global</p>
+            <p>Your daily update of the most played</p>
+       </div>
+       <div class="inner-card-box inner-card-box3">
+        <img src="AlanWalkerfaded.jpg">
+        <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+       
+    <p>Top 50 - Global</p>
+    <p>Your daily update of the most played</p>
+</div>
+
+                </div>
+                </div>
+                    <!-- section2 -->
+                    <div class="album-section2">
+                        <div class="sec-head"><p class="heading">Top indian song here</p> <a href="#">Show all</a></div>
+                        
+                         <!-- card-box -->
+                        <div class="card-box" >
+                            <div class="inner-card-box inner-card-box1">
+                                <img src="card6img.jpeg">
+                                <i id ="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                               
+                            <p>Top 50 - Global</p>
+                            <p>Your daily update of the most played</p>
+                       </div>
+                        </div>
+                        </div>
+
+                <!-- section3 -->
+                <div class="album-section3">
+                    <div class="sec-head"> <p class="heading">tranding now near you</p> <a href="#">Show all</a></div>
+                    <!-- <h2 class="heading">tranding now near you</h2> -->
+                    <!-- card-box -->
+                    <div class="card-box">
+                      <div class="inner-card-box inner-card-box1">
+                                <img src="card2img.jpeg">
+                                <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                            <p>Top 50 - Global</p>
+                            <p>Your daily update of the most played</p>
+                       </div>
+                        <div class="inner-card-box inner-card-box2">
+                            <img src="card3img.jpeg">
+                                <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                            <p>Top 50 - Global</p>
+                            <p>Your daily update of the most played</p>
+                        </div>
+                        <div class="inner-card-box inner-card-box3">
+                            <img src="card4img.jpeg">
+                            <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                            <p>Top 50 - Global</p>
+                            <p>Your daily update of the most played</p>
+                        </div>
+                        <div class="inner-card-box inner-card-box4">
+                            <img src="09'songCard.jpg">
+                            <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                            <p>Top 50 - Global</p>
+                            <p>Your daily update of the most played</p>
+                        </div>
+                    </div>
+                       
+                    </div>
+                    <!--section 04-->
+                    <div class="album-section4">
+                        <div class="sec-head"><p class="heading">Top 50 viral global songs</p><a href="#">Show all</a></div>
+                    <!-- card-box -->
+                    <div class="card-box" >
+                        <div class="inner-card-box inner-card-box1">
+                            <img src="card1img.jpeg">
+                            <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                           
+                        <p>Top 50 - Global</p>
+                        <p>Your daily update of the most played</p>
+                   </div>
+                   <div class="inner-card-box inner-card-box2">
+                    <img src="global50-india.jpg">
+                    <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                   
+                <p>Top 50 - Global</p>
+                <p>Your daily update of the most played</p>
+           </div>
+           <div class="inner-card-box inner-card-box3">
+            <img src="region_global_default.jpg">
+            <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+           
+        <p>Top 50 - Global</p>
+        <p>Your daily update of the most played</p>
+    </div>
+    
+                    </div>
+                    </div>
+                        <!-- section5 -->
+                        <div class="album-section5">
+                            <div class="sec-head"> <p class="heading">More like alan walker</p> <a href="#">Show all</a></div>
+                            <!-- <h2 class="heading">tranding now near you</h2> -->
+                            <!-- card-box -->
+                            <div class="card-box">
+                              <div class="inner-card-box inner-card-box1">
+                                        <img src="likecard1.jpg">
+                                        <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                                    <p>Top 50 - Global</p>
+                                    <p>Your daily update of the most played</p>
+                               </div>
+                                <div class="inner-card-box inner-card-box2">
+                                    <img src="likecard2.jpg">
+                                        <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                                    <p>Top 50 - Global</p>
+                                    <p>Your daily update of the most played</p>
+                                </div>
+                                <div class="inner-card-box inner-card-box3">
+                                    <img src="likecard3.jpg">
+                                    <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                                    <p>Top 50 - Global</p>
+                                    <p>Your daily update of the most played</p>
+                                </div>
+                                <div class="inner-card-box inner-card-box4">
+                                    <img  id="box4"src="likecard4.jpg">
+                                    <i id="play-bar"  class="fa-solid fa-play" style="color: #000000;"></i>
+                                    <p>Top 50 - Global</p>
+                                    <p>Your daily update of the most played</p>
+                                </div>
+                            </div>
+                               
+                            </div>
+            </div>     
+          
+                <div class="footer1">
+                <div class="footer-menu">
+                    <ul>
+                        <li><p>Company</p></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">For the Record</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><p>Communities</p></li>
+                        <li><a href="#">For Artists</a></li>
+                        <li><a href="#"> Developers</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Investors</a></li>
+                        <li><a href="#"> Vendors</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><p>Useful links</p></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Free Mobile App</a></li>
+                    </ul>
+                </div>
+                <div class="footer-menu">
+                    <ul>
+                        <li><p>Spotify Plans</p></li>
+                        <li><a href="#">Premium Individual</a></li>
+                        <li><a href="#">Premium Duo</a></li>
+                        <li><a href="#">Premium Family</a></li>
+                        <li><a href="#">Premium Student</a></li>
+                        <li><a href="#">Spotify Free</a></li>
+                    </ul>
+                </div>
+
+                <div class="social-media">
+                    <ul>
+                        <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+                        
+                    </ul>
+                </div>
+            </div>
+            <div class="horizontalLine"><hr></div>
+            
+            <div class="footer2">
+                <div class="legal">
+                    <ul>
+                        <li><a>Legal</a></li>
+                        <li><a>Safety & Privacy Center</a></li>
+                        <li><a>Privacy Policy</a></li>
+                        <li><a>Cookies</a></li>
+                        <li><a>About Ads</a></li>
+                        <li><a>Accessiblity</a></li>
+                    </ul>
+                </div>
+                <div class="copyright">&copy; 2024 Spotify AB</div>
+            </div>
+            </div>
+        </div>
+       
+        <div class="music-player">
+            <div class="album-player">
+                <img id="playImg" src="justinbieberCard.jpg">
+                <div>
+                    <span><a href="#">Song</a></span>
+                    <span><a href="#">About</a>, <a href="#">Lyrics</a></span>
+                </div>
+                <img src="add_circle_24dp_FILL0_wght400_GRAD0_opsz24.png">
+            </div>
+            <div class="play-bar">
+                <div class="play-icons-bar">
+                    <img src="player_icon1.png" class="play-icons1">
+                    <img src="player_icon2.png" class="play-icons2">
+                    <img id="play_pauseImg" src="pause_circle_40dp.png" class="play-icons3">
+                    <img src="player_icon4.png" class="play-icons4">
+                    <img src="player_icon5.png" class="play-icons5">
+                </div>
+                    <div class="progress-bar">
+                        <span class="curr-time">00:00</span>
+                        <span class="play-range-bar"><input type="range" min="0" max="100" step="1"></span>
+                        <span class="end-time">03.30</span>
+                    </div>
+                
+            </div>
+            <div class="controls">
+                <img src="display.svg">
+                <img src="music-queue.svg">
+                <img src="device.svg">
+                <div class="volume">
+                    <!-- <label> -->
+                        <i  id="volume-bar"class="fa-solid fa-volume-low"></i>
+                    <!-- </label> -->
+                    <input  type="range" id="volume-bar">
+                    </div>
+                    <img src="mini-screen.png">
+                <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                </div>
+                <div class="for_query">
+                    <i id="favorite"class="fa-solid fa-heart"></i>
+                        <i  id="pause" class="fa-solid fa-circle-pause"></i>
+    
+                </div>
+            
+        </div>
+        <div class="responsive_navbar">
+            <ul>
+                <li><i id="home-icon" class="fa-solid fa-house" ></i> <span>Home</span></li>
+                <li> <i class="fa-solid fa-magnifying-glass"></i> <span>Search</span></li>
+                <li><img src="library_icon.png"> <span>Library</span></li>
+                <li><i class="fa-brands fa-spotify"></i> <span>Get App</span></li>
+              
+            </ul>
+        </div>
+    </div>
+    <script src="spotify.js"></script>
+</body>
+</html>
